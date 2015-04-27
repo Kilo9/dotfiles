@@ -1,5 +1,5 @@
 #!/bin/bash
-# .make.sh
+# make.sh
 # This script creates symlinks from the home directory to any desired dotfiles in ~/dotfiles
 
 # full - copy to dotfiles, make backup, symlink
@@ -26,8 +26,8 @@ for file in $files; do
         echo "Backing up dotfiles to $olddir"
         cp -r $dir/$file $olddir/$file
     elif [[ $1 == "install" ]]; then
-        echo "Make backup of dotfiles"
-        cp -r ~/.$file $olddir/$file
+        echo "Move current dotfiles to $olddir"
+        mv ~/.$file $olddir/$file
         echo "symlink to all dotfiles."
         ln -s $dir/$file ~/.$file
     fi
