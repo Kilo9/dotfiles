@@ -26,6 +26,8 @@ for file in $files; do
         echo "Backing up dotfiles to $olddir"
         cp -r $dir/$file $olddir/$file
     elif [[ $1 == "install" ]]; then
+        echo "Make backup of dotfiles"
+        cp -r ~/.$file $olddir/$file
         echo "symlink to all dotfiles."
         ln -s $dir/$file ~/.$file
     fi
