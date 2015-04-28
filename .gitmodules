@@ -25,3 +25,6 @@
 [submodule "/Users/bassij/dotfiles/vim/bundle/tabular"]
 	path = /Users/bassij/dotfiles/vim/bundle/tabular
 	url = https://github.com/godlygeek/tabular
+[submodule "/Users/bassij/dotfiles/vim/bundle/vim-airline"]
+	path = /Users/bassij/dotfiles/vim/bundle/vim-airline
+	url = https://github.com/bling/vim-airline
