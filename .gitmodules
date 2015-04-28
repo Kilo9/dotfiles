@@ -31,3 +31,6 @@
 [submodule "/Users/bassij/dotfiles/vim/bundle/vim-autoclose"]
 	path = /Users/bassij/dotfiles/vim/bundle/vim-autoclose
 	url = https://github.com/Townk/vim-autoclose
+[submodule "/Users/bassij/dotfiles/vim/bundle/vim-coloresque"]
+	path = /Users/bassij/dotfiles/vim/bundle/vim-coloresque
+	url = https://github.com/gorodinskiy/vim-coloresque
