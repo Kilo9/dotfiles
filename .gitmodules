@@ -22,3 +22,6 @@
 [submodule "/Users/bassij/dotfiles/vim/bundle/syntastic"]
 	path = /Users/bassij/dotfiles/vim/bundle/syntastic
 	url = https://github.com/scrooloose/syntastic.git
+[submodule "/Users/bassij/dotfiles/vim/bundle/tabular"]
+	path = /Users/bassij/dotfiles/vim/bundle/tabular
+	url = https://github.com/godlygeek/tabular
