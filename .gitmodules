@@ -28,3 +28,6 @@
 [submodule "/Users/bassij/dotfiles/vim/bundle/vim-airline"]
 	path = /Users/bassij/dotfiles/vim/bundle/vim-airline
 	url = https://github.com/bling/vim-airline
+[submodule "/Users/bassij/dotfiles/vim/bundle/vim-autoclose"]
+	path = /Users/bassij/dotfiles/vim/bundle/vim-autoclose
+	url = https://github.com/Townk/vim-autoclose
