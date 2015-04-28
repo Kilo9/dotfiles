@@ -43,3 +43,6 @@
 [submodule "/Users/bassij/dotfiles/vim/bundle/vim-gitgutter"]
 	path = /Users/bassij/dotfiles/vim/bundle/vim-gitgutter
 	url = https://github.com/airblade/vim-gitgutter
+[submodule "/Users/bassij/dotfiles/vim/bundle/vim-haml"]
+	path = /Users/bassij/dotfiles/vim/bundle/vim-haml
+	url = https://github.com/tpope/vim-haml
