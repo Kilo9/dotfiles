@@ -91,3 +91,6 @@
 [submodule "vim/bundle/vim-coloresque"]
 	path = vim/bundle/vim-coloresque
 	url = https://github.com/gorodinskiy/vim-coloresque
+[submodule "vim/bundle/vim-easymotion"]
+	path = vim/bundle/vim-easymotion
+	url = https://github.com/Lokaltog/vim-easymotion
