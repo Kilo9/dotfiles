@@ -85,3 +85,6 @@
 [submodule "vim/bundle/vim-airline"]
 	path = vim/bundle/vim-airline
 	url = https://github.com/bling/vim-airline
+[submodule "vim/bundle/vim-autoclose"]
+	path = vim/bundle/vim-autoclose
+	url = https://github.com/Townk/vim-autoclose
