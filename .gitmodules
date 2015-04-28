@@ -13,3 +13,6 @@
 [submodule "/Users/bassij/dotfiles/vim/bundle/nerdtree"]
 	path = /Users/bassij/dotfiles/vim/bundle/nerdtree
 	url = https://github.com/scrooloose/nerdtree
+[submodule "/Users/bassij/dotfiles/vim/bundle/sparkup"]
+	path = /Users/bassij/dotfiles/vim/bundle/sparkup
+	url = https://github.com/rstacruz/sparkup
