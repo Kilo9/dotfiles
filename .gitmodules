@@ -52,3 +52,6 @@
 [submodule "/Users/bassij/dotfiles/vim/bundle/vim-rails"]
 	path = /Users/bassij/dotfiles/vim/bundle/vim-rails
 	url = https://github.com/tpope/vim-rails
+[submodule "/Users/bassij/dotfiles/vim/bundle/vim-windowswap"]
+	path = /Users/bassij/dotfiles/vim/bundle/vim-windowswap
+	url = https://github.com/wesQ3/vim-windowswap
