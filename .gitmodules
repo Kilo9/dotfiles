@@ -67,3 +67,6 @@
 [submodule "vim/bundle/matchit.zip"]
 	path = vim/bundle/matchit.zip
 	url = https://github.com/vim-scripts/matchit.zip
+[submodule "vim/bundle/nerdtree"]
+	path = vim/bundle/nerdtree
+	url = https://github.com/scrooloose/nerdtree
