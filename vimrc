@@ -251,3 +251,10 @@ endfunction
 
 map <C-w> :call <SID>StripTrailingWhitespaces()<CR>
 map <C-m> :call <SID>ToggleNumber()<CR>
+
+let g:tagbar_usearrows = 1
+nnoremap <leader>l :TagbarToggle<CR>
+
+let g:multi_cursor_next_key='<C-m>'
+
+call pathogen#helptags()

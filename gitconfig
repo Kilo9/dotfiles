@@ -13,7 +13,7 @@
 [push]
 	default = simple
 [user]
-	name = Kilo9
-	email = jbassi@stevens.edu
+	name = Jeremy Bassi
+	email = bassij@thingee.com
 [merge]
 	tool = vimdiff
