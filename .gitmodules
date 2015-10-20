@@ -121,3 +121,6 @@
 [submodule "vim/bundle/vim-multiple-cursors"]
 	path = vim/bundle/vim-multiple-cursors
 	url = https://github.com/terryma/vim-multiple-cursors
+[submodule "vim/bundle/golden-ratio"]
+	path = vim/bundle/golden-ratio
+	url = git://github.com/roman/golden-ratio.git

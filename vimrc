@@ -213,7 +213,7 @@ nnoremap E $
 nnoremap gV `[v`]
 
 au FileType html,xhtml,xml,eruby so ~/.vim/plugin/html_autoclosetag.vim
-autocmd FileType html,css,scss,ruby,eruby,javascript setlocal shiftwidth=2 tabstop=2
+autocmd FileType html,css,scss,ruby,eruby,javascript,php setlocal shiftwidth=2 tabstop=2
 
 "source ~/.vim/plugin/matchit.vim
 
@@ -253,8 +253,10 @@ map <C-w> :call <SID>StripTrailingWhitespaces()<CR>
 map <C-m> :call <SID>ToggleNumber()<CR>
 
 let g:tagbar_usearrows = 1
-nnoremap <leader>l :TagbarToggle<CR>
+nnoremap <leader>m :TagbarToggle<CR>
 
-let g:multi_cursor_next_key='<C-m>'
+let g:multi_cursor_next_key='<C-b>'
+
+let g:loaded_golden_ratio = 0
 
 call pathogen#helptags()
