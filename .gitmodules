@@ -1,135 +1,176 @@
 [submodule "/Users/bassij/dotfiles/vim/bundle/MatchTag"]
 	path = /Users/bassij/dotfiles/vim/bundle/MatchTag
 	url = https://github.com/gregsexton/MatchTag
+    ignore = dirty
 [submodule "/Users/bassij/dotfiles/vim/bundle/closetag.vim"]
 	path = /Users/bassij/dotfiles/vim/bundle/closetag.vim
 	url = https://github.com/docunext/closetag.vim
+    ignore = dirty
 [submodule "/Users/bassij/dotfiles/vim/bundle/html5.vim"]
 	path = /Users/bassij/dotfiles/vim/bundle/html5.vim
 	url = https://github.com/othree/html5.vim
+    ignore = dirty
 [submodule "/Users/bassij/dotfiles/vim/bundle/matchit.zip"]
 	path = /Users/bassij/dotfiles/vim/bundle/matchit.zip
 	url = https://github.com/vim-scripts/matchit.zip
+    ignore = dirty
 [submodule "/Users/bassij/dotfiles/vim/bundle/nerdtree"]
 	path = /Users/bassij/dotfiles/vim/bundle/nerdtree
 	url = https://github.com/scrooloose/nerdtree
+    ignore = dirty
 [submodule "/Users/bassij/dotfiles/vim/bundle/sparkup"]
 	path = /Users/bassij/dotfiles/vim/bundle/sparkup
 	url = https://github.com/rstacruz/sparkup
+    ignore = dirty
 [submodule "/Users/bassij/dotfiles/vim/bundle/supertab"]
 	path = /Users/bassij/dotfiles/vim/bundle/supertab
 	url = https://github.com/ervandew/supertab
+    ignore = dirty
 [submodule "/Users/bassij/dotfiles/vim/bundle/syntastic"]
 	path = /Users/bassij/dotfiles/vim/bundle/syntastic
 	url = https://github.com/scrooloose/syntastic.git
+    ignore = dirty
 [submodule "/Users/bassij/dotfiles/vim/bundle/tabular"]
 	path = /Users/bassij/dotfiles/vim/bundle/tabular
 	url = https://github.com/godlygeek/tabular
+    ignore = dirty
 [submodule "/Users/bassij/dotfiles/vim/bundle/vim-airline"]
 	path = /Users/bassij/dotfiles/vim/bundle/vim-airline
 	url = https://github.com/bling/vim-airline
+    ignore = dirty
 [submodule "/Users/bassij/dotfiles/vim/bundle/vim-autoclose"]
 	path = /Users/bassij/dotfiles/vim/bundle/vim-autoclose
 	url = https://github.com/Townk/vim-autoclose
+    ignore = dirty
 [submodule "/Users/bassij/dotfiles/vim/bundle/vim-coloresque"]
 	path = /Users/bassij/dotfiles/vim/bundle/vim-coloresque
 	url = https://github.com/gorodinskiy/vim-coloresque
+    ignore = dirty
 [submodule "/Users/bassij/dotfiles/vim/bundle/vim-easymotion"]
 	path = /Users/bassij/dotfiles/vim/bundle/vim-easymotion
 	url = https://github.com/Lokaltog/vim-easymotion
+    ignore = dirty
 [submodule "/Users/bassij/dotfiles/vim/bundle/vim-fugitive"]
 	path = /Users/bassij/dotfiles/vim/bundle/vim-fugitive
 	url = https://github.com/tpope/vim-fugitive
+    ignore = dirty
 [submodule "/Users/bassij/dotfiles/vim/bundle/vim-gitgutter"]
 	path = /Users/bassij/dotfiles/vim/bundle/vim-gitgutter
 	url = https://github.com/airblade/vim-gitgutter
+    ignore = dirty
 [submodule "/Users/bassij/dotfiles/vim/bundle/vim-haml"]
 	path = /Users/bassij/dotfiles/vim/bundle/vim-haml
 	url = https://github.com/tpope/vim-haml
+    ignore = dirty
 [submodule "/Users/bassij/dotfiles/vim/bundle/vim-nerdtree-tabs"]
 	path = /Users/bassij/dotfiles/vim/bundle/vim-nerdtree-tabs
 	url = https://github.com/jistr/vim-nerdtree-tabs.git
+    ignore = dirty
 [submodule "/Users/bassij/dotfiles/vim/bundle/vim-rails"]
 	path = /Users/bassij/dotfiles/vim/bundle/vim-rails
 	url = https://github.com/tpope/vim-rails
+    ignore = dirty
 [submodule "/Users/bassij/dotfiles/vim/bundle/vim-windowswap"]
 	path = /Users/bassij/dotfiles/vim/bundle/vim-windowswap
 	url = https://github.com/wesQ3/vim-windowswap
+    ignore = dirty
 [submodule "vim/bundle/MatchTag"]
 	path = vim/bundle/MatchTag
 	url = https://github.com/gregsexton/MatchTag
+    ignore = dirty
 [submodule "vim/bundle/closetag.vim"]
 	path = vim/bundle/closetag.vim
 	url = https://github.com/docunext/closetag.vim
+    ignore = dirty
 [submodule "vim/bundle/html5.vim"]
 	path = vim/bundle/html5.vim
 	url = https://github.com/othree/html5.vim
+    ignore = dirty
 [submodule "vim/bundle/matchit.zip"]
 	path = vim/bundle/matchit.zip
 	url = https://github.com/vim-scripts/matchit.zip
+    ignore = dirty
 [submodule "vim/bundle/nerdtree"]
 	path = vim/bundle/nerdtree
 	url = https://github.com/scrooloose/nerdtree
+    ignore = dirty
 [submodule "vim/bundle/sparkup"]
 	path = vim/bundle/sparkup
 	url = https://github.com/rstacruz/sparkup
+    ignore = dirty
 [submodule "vim/bundle/supertab"]
 	path = vim/bundle/supertab
 	url = https://github.com/ervandew/supertab
+    ignore = dirty
 [submodule "vim/bundle/syntastic"]
 	path = vim/bundle/syntastic
 	url = https://github.com/scrooloose/syntastic.git
+    ignore = dirty
 [submodule "vim/bundle/tabular"]
 	path = vim/bundle/tabular
 	url = https://github.com/godlygeek/tabular
+    ignore = dirty
 [submodule "vim/bundle/vim-airline"]
 	path = vim/bundle/vim-airline
 	url = https://github.com/bling/vim-airline
+    ignore = dirty
 [submodule "vim/bundle/vim-autoclose"]
 	path = vim/bundle/vim-autoclose
 	url = https://github.com/Townk/vim-autoclose
+    ignore = dirty
 [submodule "vim/bundle/vim-coloresque"]
 	path = vim/bundle/vim-coloresque
 	url = https://github.com/gorodinskiy/vim-coloresque
+    ignore = dirty
 [submodule "vim/bundle/vim-easymotion"]
 	path = vim/bundle/vim-easymotion
 	url = https://github.com/Lokaltog/vim-easymotion
+    ignore = dirty
 [submodule "vim/bundle/vim-fugitive"]
 	path = vim/bundle/vim-fugitive
 	url = https://github.com/tpope/vim-fugitive
+    ignore = dirty
 [submodule "vim/bundle/vim-gitgutter"]
 	path = vim/bundle/vim-gitgutter
 	url = https://github.com/airblade/vim-gitgutter
+    ignore = dirty
 [submodule "vim/bundle/vim-haml"]
 	path = vim/bundle/vim-haml
 	url = https://github.com/tpope/vim-haml
+    ignore = dirty
 [submodule "vim/bundle/vim-nerdtree-tabs"]
 	path = vim/bundle/vim-nerdtree-tabs
 	url = https://github.com/jistr/vim-nerdtree-tabs.git
+    ignore = dirty
 [submodule "vim/bundle/vim-rails"]
 	path = vim/bundle/vim-rails
 	url = https://github.com/tpope/vim-rails
+    ignore = dirty
 [submodule "vim/bundle/vim-windowswap"]
 	path = vim/bundle/vim-windowswap
 	url = https://github.com/wesQ3/vim-windowswap
+    ignore = dirty
 [submodule "vim/bundle/tagbar"]
 	path = vim/bundle/tagbar
 	url = git://github.com/majutsushi/tagbar.git
+    ignore = dirty
 [submodule "vim/bundle/nerdcommenter"]
 	path = vim/bundle/nerdcommenter
 	url = git://github.com/scrooloose/nerdcommenter.git
+    ignore = dirty
 [submodule "vim/bundle/vim-multiple-cursors"]
 	path = vim/bundle/vim-multiple-cursors
 	url = https://github.com/terryma/vim-multiple-cursors
+    ignore = dirty
 [submodule "vim/bundle/golden-ratio"]
 	path = vim/bundle/golden-ratio
 	url = git://github.com/roman/golden-ratio.git
-[submodule "ctrlp.vim"]
-	path = ctrlp.vim
-	url = /Users/bassij/.vim/bundle/ctrlp.vim
+    ignore = dirty
 [submodule "vim/bundle/quick-scope"]
 	path = vim/bundle/quick-scope
 	url = https://github.com/unblevable/quick-scope
+    ignore = dirty
 [submodule "vim/bundle/ctrlp.vim"]
 	path = vim/bundle/ctrlp.vim
 	url = https://github.com/kien/ctrlp.vim
+    ignore = dirty

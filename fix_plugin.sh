@@ -5,9 +5,8 @@
 
 cd ~/.vim/bundle
 cd $1
-BICya="\e[1;96m';]";
+BICya=`tput setaf 1`;
 remote=`git config remote.origin.url`
-echo "$remote"
 
 if [ "$1" != "*" ]
 then
