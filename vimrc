@@ -208,6 +208,7 @@ map <Leader>h <Plug>(easymotion-linebackward)
 
 nnoremap B ^
 nnoremap E $
+vnoremap E $
 
 " highlight last inserted text
 nnoremap gV `[v`]
@@ -258,5 +259,11 @@ nnoremap <leader>m :TagbarToggle<CR>
 let g:multi_cursor_next_key='<C-b>'
 
 let g:loaded_golden_ratio = 0
+
+let g:ctrlp_map = '<c-p>'
+let g:ctrlp_cmd = 'CtrlP'
+
+" Trigger a highlight in the appropriate direction when pressing these keys:
+let g:qs_highlight_on_keys = ['f', 'F', 't', 'T'] "
 
 call pathogen#helptags()

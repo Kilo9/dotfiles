@@ -1,3 +1,5 @@
 alias la="ls -la"
 alias gs="git status"
-tmux
+alias gg="git graph"
+alias rgrep="grep -rn --exclude-dir={tmp,log,test}"
+alias c="clear"

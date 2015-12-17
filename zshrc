@@ -1,6 +1,29 @@
 # Run tmux but not in inf. loop
 if [ "$TMUX" = "" ]; then exec tmux; fi
 
+ #history stuff
+ HISTFILE=$HOME/.zsh_history
+ HISTSIZE=10000
+ SAVEHIST=10000
+ setopt append_history
+ setopt hist_expire_dups_first
+ setopt hist_ignore_space
+ setopt inc_append_history
+ setopt share_history
+
+ # fix zsh annoying history behavior
+ h() { if [ -z "$*" ]; then history 1; else history 1 | egrep "$@"; fi; }
+
+ autoload -Uz up-line-or-beginning-search
+ autoload -Uz down-line-or-beginning-search
+ zle -N up-line-or-beginning-search
+ zle -N down-line-or-beginning-search
+ bindkey '\eOA' up-line-or-beginning-search
+ bindkey '\e[A' up-line-or-beginning-search
+ bindkey '\eOB' down-line-or-beginning-search
+ bindkey '\e[B' down-line-or-beginning-search 
+
+
 # No theme
 ZSH_THEME=""
 
@@ -10,10 +33,6 @@ CASE_SENSITIVE="true"
 # Dots
 COMPLETION_WAITING_DOTS="true"
 
-#history auto complete
-bindkey '\e[A' history-beginning-search-backward
-bindkey '\e[B' history-beginning-search-forward
-
 # Which plugins would you like to load? (plugins can be found in ~/.oh-my-zsh/plugins/*)
 # Custom plugins may be added to ~/.oh-my-zsh/custom/plugins/
 plugins=(git rails vi-mode tmux)
@@ -22,6 +41,13 @@ plugins=(git rails vi-mode tmux)
 DISABLE_AUTO_TITLE=true
 
 # ALIASES HERE >>>
+alias la="ls -la"
+alias gs="git status"
+alias gg="git graph"
+alias rgrep="grep -rn --exclude-dir={tmp,log,test}"
+alias c="clear"
+alias be="bundle exec"
+alias re="rbenv exec"
 
 # Rbenv for rails
 eval "$(rbenv init -)"
