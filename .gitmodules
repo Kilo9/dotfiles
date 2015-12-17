@@ -130,3 +130,6 @@
 [submodule "vim/bundle/quick-scope"]
 	path = vim/bundle/quick-scope
 	url = https://github.com/unblevable/quick-scope
+[submodule "vim/bundle/ctrlp.vim"]
+	path = vim/bundle/ctrlp.vim
+	url = https://github.com/kien/ctrlp.vim
