@@ -1,6 +1,8 @@
 #!/bin/bash
 
-#creates backup to ~/old_bundle and then uses that backup to clone all the plugins
+# FIRST TIME DOTFILE COMMIT ONLY
+# creates backup to ~/old_bundle and then uses that backup to clone all the plugins and add to repo
+
 mv vim/bundle ~/old_bundle
 mkdir vim/bundle
 
