@@ -4,8 +4,8 @@
 # $1 -- git url
 # $2 -- plugin name=url.end_of.without_ext
 
-cd ~/.vim/bundle
+url=~/.vim/bundle
 
 git submodule init
-git submodule add $1 ./$2
+git submodule add $1 $url/$2
 git commit -m "Added $2"
