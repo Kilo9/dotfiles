@@ -124,3 +124,9 @@
 [submodule "vim/bundle/golden-ratio"]
 	path = vim/bundle/golden-ratio
 	url = git://github.com/roman/golden-ratio.git
+[submodule "ctrlp.vim"]
+	path = ctrlp.vim
+	url = /Users/bassij/.vim/bundle/ctrlp.vim
+[submodule "vim/bundle/quick-scope"]
+	path = vim/bundle/quick-scope
+	url = https://github.com/unblevable/quick-scope
