@@ -78,6 +78,8 @@ nmap <leader>w :w!<cr>
 map j gj
 map k gk
 
+map <leader>b :echo @%<cr>
+
 " Map <Space> to / (search) and Ctrl-<Space> to ? (backwards search)
 map <space> /
 map <c-space> ?
@@ -208,6 +210,7 @@ map <Leader>h <Plug>(easymotion-linebackward)
 
 nnoremap B ^
 nnoremap E $
+vnoremap B ^
 vnoremap E $
 
 " highlight last inserted text

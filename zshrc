@@ -48,6 +48,7 @@ alias rgrep="grep -rn --exclude-dir={tmp,log,test}"
 alias c="clear"
 alias be="bundle exec"
 alias re="rbenv exec"
+alias gdc="git diff --cached"
 
 # Rbenv for rails
 eval "$(rbenv init -)"
