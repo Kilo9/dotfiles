@@ -62,3 +62,17 @@ source $ZSH/oh-my-zsh.sh
 
 # Custom prompt
 export PROMPT=$'$%{\033[1;37m%}%n%{\033[0m%}@%m: %(6~*%{\033[1;31m%}.../%3~%{\033[0m%}*%{\033[1;31m%}%~%{\033[0m%}) %{\033[32m%}$(git_prompt_info)%{\033[0m%} %# '
+export PATH="/usr/local/bin:/Applications/Racket v6.4/bin":$PATH
+# Haskell
+export PATH=~/.cabal/bin:$PATH
+
+alias la="ls -la"
+alias gs="git status"
+alias gg="git graph"
+alias vimrc="vim ~/.vimrc"
+alias bashrc="vim ~/.bashrc"
+alias tmrc="vim ~/.tmux_conf"
+alias vi="vim"
+
+# activator
+export PATH="/Users/kilo/dev/activator-dist-1.3.10/bin":$PATH

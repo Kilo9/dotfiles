@@ -4,8 +4,8 @@
 
 # full - copy to dotfiles, make backup, symlink
 # backup - 
-dir=~/dotfiles                    # dotfiles directory
-olddir=~/dotfiles_old             # old dotfiles backup directory
+dir=~/dev/dotfiles                    # dotfiles directory
+olddir=~/dev/dotfiles_old             # old dotfiles backup directory
 files="bashrc bash_profile vimrc vim zshrc zshenv zprofile gitconfig gitignore_global"  # list of files/folders to symlink in homedir
 
 # create dotfiles_old in homedir

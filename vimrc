@@ -270,3 +270,76 @@ let g:ctrlp_cmd = 'CtrlP'
 let g:qs_highlight_on_keys = ['f', 'F', 't', 'T'] "
 
 call pathogen#helptags()
+
+au! BufRead,BufNewFile *.ss setfiletype racket
+au! BufRead,BufNewFile *.rkt setfiletype racket
+
+let g:slime_target = "tmux"
+
+autocmd filetype lisp,scheme,art,racket setlocal equalprg=scmindent.rkt
+autocmd filetype lisp,scheme,art,racket let maplocalleader = "\\"
+autocmd filetype lisp,scheme,art,racket setlocal shiftwidth=2 tabstop=2
+
+let g:niji_matching_filetypes = ['lisp', 'scheme', 'racket', 'haskell']
+
+let g:niji_dark_colours = [
+    \ [ '81', '#5fd7ff'],
+    \ [ '99', '#875fff'],
+    \ [ '1',  '#dc322f'],
+    \ [ '76', '#5fd700'],
+    \ [ '3',  '#b58900'],
+    \ [ '2',  '#859900'],
+    \ [ '6',  '#2aa198'],
+    \ [ '4',  '#268bd2'],
+    \ ]
+
+" Can't get any Repl action going "
+" tslime {{{
+"let g:tslime_ensure_trailing_newlines = 1
+let g:tslime_always_current_session = 1
+let g:tslime_always_current_window = 1
+let g:tslime_normal_mapping = '<localleader><space>'
+let g:tslime_visual_mapping = '<localleader><space>'
+let g:tslime_vars_mapping = '<localleader>;'
+" }}} 
+"
+
+" To open R in terminal rather than RGui (only necessary on OS X)
+let vimrplugin_applescript = 0
+let vimrplugin_screenplugin = 0
+" For tmux support
+let g:ScreenImpl = 'Tmux'
+let vimrplugin_screenvsplit = 1 " For vertical tmux split
+let g:ScreenShellInitialFocus = 'shell' 
+" " instruct to use your own .screenrc file
+" let g:vimrplugin_noscreenrc = 1
+" " For integration of r-plugin with screen.vim
+" let g:vimrplugin_screenplugin = 1
+" " Don't use conque shell if installed
+" let vimrplugin_conqueplugin = 0
+" map the letter 'r' to send visually selected lines to R 
+let g:vimrplugin_map_r = 1
+" " see R documentation in a Vim buffer
+let vimrplugin_vimpager = "no"
+" "set expandtab
+" set shiftwidth=4
+" set tabstop=8
+" " start R with F2 key
+map <F2> <Plug>RStart 
+imap <F2> <Plug>RStart
+vmap <F2> <Plug>RStart
+" " send selection to R with space bar
+vmap <Space> <Plug>RDSendSelection 
+" " send line to R with space bar
+nmap <Space> <Plug>RDSendLine"/Plug>
+
+" select to end of last line
+vmap G GE
+
+let g:indent_guides_auto_colors = 0
+autocmd VimEnter,Colorscheme * :hi IndentGuidesOdd  guibg=red   ctermbg=3
+autocmd VimEnter,Colorscheme * :hi IndentGuidesEven guibg=green ctermbg=4
+
+hi IndentGuidesOdd  ctermbg=black
+hi IndentGuidesEven ctermbg=darkgrey
+
