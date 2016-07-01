@@ -301,7 +301,7 @@ let g:tslime_always_current_window = 1
 let g:tslime_normal_mapping = '<localleader><space>'
 let g:tslime_visual_mapping = '<localleader><space>'
 let g:tslime_vars_mapping = '<localleader>;'
-" }}} 
+" }}}
 "
 
 " To open R in terminal rather than RGui (only necessary on OS X)
@@ -310,14 +310,14 @@ let vimrplugin_screenplugin = 0
 " For tmux support
 let g:ScreenImpl = 'Tmux'
 let vimrplugin_screenvsplit = 1 " For vertical tmux split
-let g:ScreenShellInitialFocus = 'shell' 
+let g:ScreenShellInitialFocus = 'shell'
 " " instruct to use your own .screenrc file
 " let g:vimrplugin_noscreenrc = 1
 " " For integration of r-plugin with screen.vim
 " let g:vimrplugin_screenplugin = 1
 " " Don't use conque shell if installed
 " let vimrplugin_conqueplugin = 0
-" map the letter 'r' to send visually selected lines to R 
+" map the letter 'r' to send visually selected lines to R
 let g:vimrplugin_map_r = 1
 " " see R documentation in a Vim buffer
 let vimrplugin_vimpager = "no"
@@ -325,11 +325,11 @@ let vimrplugin_vimpager = "no"
 " set shiftwidth=4
 " set tabstop=8
 " " start R with F2 key
-map <F2> <Plug>RStart 
+map <F2> <Plug>RStart
 imap <F2> <Plug>RStart
 vmap <F2> <Plug>RStart
 " " send selection to R with space bar
-vmap <Space> <Plug>RDSendSelection 
+vmap <Space> <Plug>RDSendSelection
 " " send line to R with space bar
 nmap <Space> <Plug>RDSendLine"/Plug>
 
@@ -343,4 +343,4 @@ autocmd VimEnter,Colorscheme * :hi IndentGuidesEven guibg=green ctermbg=4
 hi IndentGuidesOdd  ctermbg=black
 hi IndentGuidesEven ctermbg=darkgrey
 
-let g:ctrlp_custom_ignore='system' 
+let g:ctrlp_custom_ignore='system'
