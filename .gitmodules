@@ -98,3 +98,6 @@
 	path = vim/bundle/ctrlp.vim
 	url = https://github.com/kien/ctrlp.vim
     ignore = dirty
+[submodule "vim-bundler"]
+	path = vim-bundler
+	url = https://github.com/tpope/vim-bundler
