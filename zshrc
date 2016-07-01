@@ -76,3 +76,9 @@ alias vi="vim"
 
 # activator
 export PATH="/Users/kilo/dev/activator-dist-1.3.10/bin":$PATH
+
+#mysql
+export LD_LIBRARY_PATH=/usr/local/mysql/lib:$LD_LIBRARY_PATH
+export PATH="/usr/lib/libmysqlclient.18.dylib":$PATH
+
+test -e "${HOME}/.iterm2_shell_integration.zsh" && source "${HOME}/.iterm2_shell_integration.zsh"
