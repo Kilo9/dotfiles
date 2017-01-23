@@ -110,3 +110,12 @@
 [submodule "vim/bundle/vim-mustache-handlebars"]
 	path = vim/bundle/vim-mustache-handlebars
 	url = https://github.com/mustache/vim-mustache-handlebars
+[submodule "vim/bundle/vim-endwise"]
+	path = vim/bundle/vim-endwise
+	url = https://github.com/alpaca-tc/vim-endwise
+[submodule "vim/bundle/vim-indent-guides"]
+	path = vim/bundle/vim-indent-guides
+	url = https://github.com/valloric/vim-indent-guides
+[submodule "vim/bundle/vim-r-plugin"]
+	path = vim/bundle/vim-r-plugin
+	url = https://github.com/jcfaria/vim-r-plugin
