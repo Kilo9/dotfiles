@@ -119,3 +119,9 @@
 [submodule "vim/bundle/vim-r-plugin"]
 	path = vim/bundle/vim-r-plugin
 	url = https://github.com/jcfaria/vim-r-plugin
+[submodule "vim/bundle/vim-racket"]
+	path = vim/bundle/vim-racket
+	url = https://github.com/wlangstroth/vim-racket
+[submodule "vim/bundle/Nvim-R"]
+	path = vim/bundle/Nvim-R
+	url = https://github.com/vim-scripts/Vim-R-plugin2
