@@ -98,3 +98,15 @@
 	path = vim/bundle/ctrlp.vim
 	url = https://github.com/kien/ctrlp.vim
     ignore = dirty
+[submodule "vim/bundle/latex-box"]
+	path = vim/bundle/latex-box
+	url = https://github.com/latex-box-team/latex-box
+[submodule "vim/bundle/grep"]
+	path = vim/bundle/grep
+	url = https://github.com/vim-scripts/grep.vim
+[submodule "vim/bundle/promela"]
+	path = vim/bundle/promela
+	url = https://github.com/vim-scripts/promela.vim
+[submodule "vim/bundle/vim-mustache-handlebars"]
+	path = vim/bundle/vim-mustache-handlebars
+	url = https://github.com/mustache/vim-mustache-handlebars
