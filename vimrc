@@ -125,8 +125,8 @@ nnoremap <C-H> <C-W><C-H>
 
 " Specify the behavior when switching between buffers
 try
-  set switchbuf=useopen,usetab,newtab
-  set stal=2
+    set switchbuf=useopen,usetab,newtab
+    set stal=2
 catch
 endtry
 
@@ -154,9 +154,9 @@ vmap <M-k> :m'<-2<cr>`>my`<mzgv`yo`z
 
 " Delete trailing white space on save, useful for Python and CoffeeScript ;)
 func! DeleteTrailingWS()
-  exe "normal mz"
-  %s/\s\+$//ge
-  exe "normal `z"
+    exe "normal mz"
+    %s/\s\+$//ge
+    exe "normal `z"
 endfunc
 autocmd BufWrite *.py :call DeleteTrailingWS()
 
@@ -174,7 +174,7 @@ let g:airline_powerline_fonts=1
 
 if !exists('g:airline_symbols')
     let g:airline_symbols = {}
-  endif
+endif
 
 " powerline symbols
 let g:airline_left_sep = ''
@@ -343,3 +343,16 @@ autocmd VimEnter,Colorscheme * :hi IndentGuidesEven guibg=green ctermbg=4
 hi IndentGuidesOdd  ctermbg=black
 hi IndentGuidesEven ctermbg=darkgrey
 
+func! WordProcessorMode() 
+    setlocal formatoptions=1 
+    setlocal noexpandtab 
+    map j gj 
+    map k gk
+    setlocal spell spelllang=en_us 
+    set complete+=s
+    set formatprg=par
+    setlocal wrap 
+    setlocal linebreak 
+endfu 
+
+com! WP call WordProcessorMode()
