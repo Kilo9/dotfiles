@@ -50,8 +50,6 @@ alias be="bundle exec"
 alias re="rbenv exec"
 alias gdc="git diff --cached"
 
-# Rbenv for rails
-eval "$(rbenv init -)"
 
 # Postgresql host
 export PGHOST=localhost

@@ -1,11 +1,13 @@
 #ZSHENV
 #Kilo9
+export PATH=/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/local/git/bin
 
-export PATH="/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/local/git/bin"
-export PATH="$HOME/.rbenv/bin:$PATH"
-export PATH=/usr/local/bin:$PATH
-#for fun scripts
-export PATH=/Users/bassij/dev/iploc:$PATH
+# Rbenv for rails
+export PATH=$HOME/.rbenv/bin:$PATH
+
+if [ -x "$(command -v rbenv)" ]; then
+    eval "$(rbenv init -)"
+fi
 
 export EDITOR='vim'
 export VISUAL='vim'
