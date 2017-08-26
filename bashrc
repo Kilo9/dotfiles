@@ -9,3 +9,5 @@ alias tmrc="vim ~/.tmux_conf"
 alias zshenv="vim ~/.zshenv"
 alias zshrc="vim ~/.zshrc"
 alias vi="vim"
+
+echo "bashrc sourced"

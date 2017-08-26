@@ -21,8 +21,7 @@ if [ "$TMUX" = "" ]; then exec tmux; fi
  bindkey '\eOA' up-line-or-beginning-search
  bindkey '\e[A' up-line-or-beginning-search
  bindkey '\eOB' down-line-or-beginning-search
- bindkey '\e[B' down-line-or-beginning-search 
-
+ bindkey '\e[B' down-line-or-beginning-search
 
 # No theme
 ZSH_THEME=""
@@ -80,3 +79,5 @@ export LD_LIBRARY_PATH=/usr/local/mysql/lib:$LD_LIBRARY_PATH
 export PATH="/usr/lib/libmysqlclient.18.dylib":$PATH
 
 test -e "${HOME}/.iterm2_shell_integration.zsh" && source "${HOME}/.iterm2_shell_integration.zsh"
+
+echo "zshrc sourced"
